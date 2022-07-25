@@ -1,16 +1,14 @@
-package com.bootcampexercise.module2.sample;
+package com.bootcampexercse.module2.activity;
 
-// Import of libraries or dependent classes
+public class VariableAssignmentActivity {
+
+    public static void main (String args []) {
 
 
-public class MainSample { // Class declaration
-    // Execution always starts from main method
-    public static void main(String []args) {
-int x;
         int x = 5;
+        x = 10;
 
-int x = x + 1;
+        System.out.println(x);
 
-Println (x) ;
     }
 }
